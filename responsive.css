@@ -24,6 +24,17 @@
     top: 81rem;
     right: 10rem;
   }
+  .work-section .section-headline {
+    font-size: 3.2rem;
+    line-height: 42px;
+  }
+  .clients-section .section-headline {
+    font-size: 3.6rem;
+    line-height: 42px;
+  }
+  .clients-section .hero-btn {
+    display: inline-table;
+  }
 }
 @media only screen and (max-width: 550px) {
   html {
