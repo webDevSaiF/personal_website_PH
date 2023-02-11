@@ -1,11 +1,4 @@
 @media only screen and (max-width: 1159px) {
-  .mb-m-40 {
-    margin-bottom: 40px;
-  }
-  .experience-section .c-row > .inner {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 @media only screen and (max-width: 769px) {
   html {
@@ -21,36 +14,25 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .hero-section .main-headline {
-    font-size: 4.4rem;
-    line-height: 38px;
+  .bio-section > .inner::after {
+    font-size: 8.4rem;
+    top: 92rem;
+    left: 11rem;
   }
-  .hero-section .c-row::after {
-    content: "DEVELOPER";
-    font-size: 4rem;
-    font-weight: 900;
-    transform: rotate(-90deg);
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--red-color);
-    display: block;
-    position: absolute;
-    top: 200px;
-    left: -60px;
-    z-index: 0;
-    opacity: 1;
-    letter-spacing: 3px;
-    opacity: 0.5;
-  }
-  .experience-section .exp-card {
-    border-left: none;
+  .hero-section > .inner::after {
+    font-size: 7.4rem;
+    top: 81rem;
+    right: 10rem;
   }
 }
-@media only screen and (max-width: 512px) {
+@media only screen and (max-width: 550px) {
   html {
     font-size: 43%;
   }
-  .experience-section .section-headline {
-    font-size: 5.2rem;
+  .bio-section > .inner::after {
+    display: none;
+  }
+  .hero-section > .inner::after {
+    display: none;
   }
 }
