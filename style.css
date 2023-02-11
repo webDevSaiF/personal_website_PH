@@ -1,0 +1,74 @@
+/* CSS INDEX
+=> 00. VARIABLES
+=> 01. COMMON CSS
+
+*/
+/* ==00.VARIABLES== */
+:root {
+  --main-bg-color: #000018;
+  --white-color: #d8e5f2;
+  --light-yellow-color: #fefe72;
+  --red-color: #b11b1b;
+  --exp-title: #6666cc;
+}
+/* ==01.COMMON CSS== */
+html {
+  font-size: 52.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--white-color);
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+/* ==02.REUSABLE CSS== */
+.c-section > .inner {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+}
+.c-row > .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.c-row,
+.c-column {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c-column {
+  flex-shrink: 1;
+}
+.btn {
+  padding: 8px 64px;
+  border: none;
+  transition: all 0.4s ease;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border-radius: 8px;
+  display: block;
+  max-width: 200px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
